@@ -1,0 +1,13 @@
+<div>
+	<table>
+		<tr>
+			<th ng-repeat="(key, value) in $ctrl.list[0]">
+				{{key}}
+			</th>
+		</tr>
+		<tr ng-repeat="item in $ctrl.list">
+			<td>{{item.Name}}</td>
+			<td>{{item.class}}</td>
+		</tr>
+	</table>
+</div>
